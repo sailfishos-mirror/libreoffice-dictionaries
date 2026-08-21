@@ -11,6 +11,7 @@ $(eval $(call gb_Dictionary_Dictionary,dict-no,dictionaries/no))
 
 $(eval $(call gb_Dictionary_add_root_files,dict-no,\
 	dictionaries/no/COPYING \
+	dictionaries/no/README_NO.txt \
 	dictionaries/no/hyph_nb_NO.dic \
 	dictionaries/no/hyph_nn_NO.dic \
 	dictionaries/no/nb_NO.aff \

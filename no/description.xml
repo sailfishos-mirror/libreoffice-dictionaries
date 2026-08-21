@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <version value="2.2"/>
+<description xmlns="http://openoffice.org/extensions/description/2006"
+             xmlns:d="http://openoffice.org/extensions/description/2006"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+  <version value="3.0"/>
   <identifier value="org.no.openoffice.dictionary.no-NO"/>
   <display-name>
     <name lang="en-US">Norwegian (Nynorsk and Bokmål) spelling dictionary, hyphenation rules, and thesaurus</name>
+    <name lang="nb">Norsk (nynorsk og bokmål) staveordbok, orddeling og tesaurus</name>
+    <name lang="nn">Norsk (nynorsk og bokmål) staveordbok, orddeling og tesaurus</name>
   </display-name>
   <platform value="all"/>
   <dependencies>
     <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0"/>
   </dependencies>
   <publisher>
-    <name xlink:href="http://no.speling.org">no.speling.org</name>
+    <name lang="en-US">Lars Bungum</name>
+    <name lang="nb">Lars Bungum</name>
+    <name lang="nn">Lars Bungum</name>
   </publisher>
+  <extension-description>
+    <src xlink:href="README_NO.txt" lang="en-US"/>
+  </extension-description>
 </description>
